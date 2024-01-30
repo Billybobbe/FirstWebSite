@@ -1,0 +1,42 @@
+.heading{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  .title{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .text{
+    color: blue;
+    font-size: 30px;
+  }
+  .button{
+    color: red;
+    font-size: 70px;
+    font-family: fantasy;
+  }
+}
+.scoreBox{
+  display: flex;
+  font-size: 30px;
+  div{
+    margin: 0px 100px 0px 0px;
+  }
+ }
+#labratory{
+  border-style: solid;
+  position: relative;
+  height: 1000px;
+  .bacteria{
+    position: absolute;
+    left: 80%;
+    width:200px;
+    img{
+      width: 200px;
+    }
+  }
+}
+body{
+  background-color: aqua;
+}
